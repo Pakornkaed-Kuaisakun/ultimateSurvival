@@ -9,4 +9,4 @@ title @s[predicate=!clock_utility:clock_utility/aqua_cold_snow,predicate=clock_u
 
 title @s[predicate=clock_utility:clock_utility/warm] actionbar ["",{"nbt":"enum.raw","storage":"mwt:clock","interpret":true},{"text":" (","color":"dark_aqua","bold":true},{"text":"☁","color":"dark_aqua"},{"text":") ","color":"dark_aqua","bold":true},{"text":"(","color":"gold","bold":true},{"text":"♨","color":"gold"},{"text":")","color":"gold","bold":true}]
 
-title @s[predicate=clock_utility:clock_utility/cave] actionbar ["",{"nbt":"enum.raw","storage":"mwt:clock","interpret":true},{"text":" (","color":"dark_aqua","bold":true},{"text":"☁","color":"dark_aqua"},{"text":") ","color":"dark_aqua","bold":true},{"text":"(","color":"black","bold":true},{"text":"ᨒ","color":"black"},{"text":")","color":"black","bold":true}]
+title @s[predicate=clock_utility:clock_utility/cave] actionbar ["",{"nbt":"enum.raw","storage":"mwt:clock","interpret":true},{"text":" (","color":"dark_aqua","bold":true},{"text":"☁","color":"dark_aqua"},{"text":") ","color":"dark_aqua","bold":true},{"text":"(","color":"dark_gray","bold":true},{"text":"ᨒ","color":"dark_gray"},{"text":")","color":"dark_gray","bold":true}]

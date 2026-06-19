@@ -36,4 +36,4 @@ function helper:data_library/run
 
 execute as @a[tag=!global.ignore,tag=!global.ignore.gui] at @s run playsound block.note_block.bell master @s ~ ~ ~ 2.5 1 1
 
-tellraw @a[tag=!global.ignore,tag=!global.ignore.gui] {"text":"DatapackUtility Reloaded!","color":"green"}
+tellraw @a[tag=!global.ignore,tag=!global.ignore.gui] {"text":"Multi-World Utility Reloaded!","color":"green"}

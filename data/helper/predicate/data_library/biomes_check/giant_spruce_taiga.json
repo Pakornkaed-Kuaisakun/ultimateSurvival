@@ -1,6 +1,6 @@
 ﻿{
-    "condition":  "minecraft:location_check",
-    "predicate":  {
-                      "biome":  "minecraft:old_growth_spruce_taiga"
-                  }
+  "condition": "minecraft:location_check",
+  "predicate": {
+    "biomes": "minecraft:old_growth_spruce_taiga"
+  }
 }

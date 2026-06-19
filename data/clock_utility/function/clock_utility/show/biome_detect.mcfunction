@@ -83,6 +83,7 @@ title @s[predicate=helper:data_library/biomes_check/bamboo_jungle_hills] actionb
 title @s[predicate=helper:data_library/biomes_check/lush_caves] actionbar ["",{"text":"Biome Detected:","bold":true,"color":"green"},{"text":" Lush Caves ↀ","color":"green"}]
 title @s[predicate=helper:data_library/biomes_check/deep_dark] actionbar ["",{"text":"Biome Detected:","bold":true,"color":"green"},{"text":" Deep Dark ⟟","color":"green"}]
 title @s[predicate=helper:data_library/biomes_check/dripstone_caves] actionbar ["",{"text":"Biome Detected:","bold":true,"color":"green"},{"text":" Dripstone Caves ⛰︎","color":"green"}]
+
 title @s[predicate=helper:data_library/biomes_check/crimson_forest] actionbar ["",{"text":"Biome Detected:","bold":true,"color":"green"},{"text": " Crimson Forest ⧛░","color":"red"}]
 title @s[predicate=helper:data_library/biomes_check/warped_forest] actionbar ["",{"text":"Biome Detected:","bold":true,"color":"green"},{"text": " Warped Forest ⧚░","color":"dark_aqua"}]
 title @s[predicate=helper:data_library/biomes_check/soul_sand_valley] actionbar ["",{"text":"Biome Detected:","bold":true,"color":"green"},{"text": " Soul Sand Valley ♠","color":"gold"}]

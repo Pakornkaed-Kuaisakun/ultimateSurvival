@@ -1,6 +1,6 @@
 ﻿{
-    "condition":  "minecraft:location_check",
-    "predicate":  {
-                      "biome":  "minecraft:ice_spikes"
-                  }
+  "condition": "minecraft:location_check",
+  "predicate": {
+    "biomes": "minecraft:ice_spikes"
+  }
 }

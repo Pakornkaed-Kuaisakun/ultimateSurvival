@@ -1,6 +1,6 @@
 ﻿{
-    "condition":  "minecraft:location_check",
-    "predicate":  {
-                      "biome":  "minecraft:cold_ocean"
-                  }
+  "condition": "minecraft:location_check",
+  "predicate": {
+    "biomes": "minecraft:cold_ocean"
+  }
 }
