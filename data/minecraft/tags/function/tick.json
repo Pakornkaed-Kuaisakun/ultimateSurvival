@@ -1,3 +1,6 @@
 {
-  "values": ["#compass_utility:compass_utility/tick"]
+  "values": [
+    "#compass_utility:compass_utility/tick",
+    "#clock_utility:clock_utility/tick"
+  ]
 }

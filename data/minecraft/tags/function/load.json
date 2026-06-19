@@ -1,6 +1,7 @@
 {
   "values": [
     "#compass_utility:compass_utility/load",
-    "#helper:data_library/load"
+    "#helper:data_library/load",
+    "#clock_utility:clock_utility/load"
   ]
 }

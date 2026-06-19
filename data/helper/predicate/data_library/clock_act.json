@@ -1,0 +1,12 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "type_specific": {
+      "type": "minecraft:player",
+      "advancements": {
+        "clock_utility:clock_utility/active/clock_act": true
+      }
+    }
+  }
+}

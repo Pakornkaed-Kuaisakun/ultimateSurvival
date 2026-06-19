@@ -1,0 +1,1 @@
+execute as @a[tag=!global.ignore,tag=!global.ignore.gui,predicate=clock_utility:clock_utility/mainhand,predicate=helper:data_library/all_deact] at @s run function clock_utility:clock_utility/event/processbar

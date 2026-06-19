@@ -1,0 +1,17 @@
+{
+  "condition": "any_of",
+  "terms": [
+    {
+      "condition": "reference",
+      "name": "helper:data_library/biomes_check/lush_caves"
+    },
+    {
+      "condition": "reference",
+      "name": "helper:data_library/biomes_check/deep_dark"
+    },
+    {
+      "condition": "reference",
+      "name": "helper:data_library/biomes_check/dripstone_caves"
+    }
+  ]
+}

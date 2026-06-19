@@ -1,0 +1,69 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:reference",
+      "name": "helper:data_library/biomes_check/mountains"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "helper:data_library/biomes_check/gravelly_mountains"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "helper:data_library/biomes_check/wooded_mountains"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "helper:data_library/biomes_check/gravelly_mountains_plus"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "helper:data_library/biomes_check/taiga"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "helper:data_library/biomes_check/taiga_hills"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "helper:data_library/biomes_check/taiga_mountains"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "helper:data_library/biomes_check/giant_tree_taiga"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "helper:data_library/biomes_check/giant_tree_taiga_hills"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "helper:data_library/biomes_check/giant_spruce_taiga"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "helper:data_library/biomes_check/giant_spruce_taiga_hills"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "helper:data_library/biomes_check/stone_shore"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "helper:data_library/biomes_check/cold_ocean"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "helper:data_library/biomes_check/deep_cold_ocean"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "helper:data_library/biomes_check/old_growth_pine_taiga"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "helper:data_library/biomes_check/old_growth_spruce_taiga"
+    }
+  ]
+}

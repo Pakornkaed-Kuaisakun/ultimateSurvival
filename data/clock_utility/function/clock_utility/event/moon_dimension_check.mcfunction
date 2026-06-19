@@ -1,0 +1,3 @@
+title @s[predicate=helper:data_library/dimension/the_end] actionbar ["",{"text":"Moon: ","color":"light_purple"},{"text":"XXXXXXXX ","obfuscated":true,"color":"gold"},{"text":"● 0 ","obfuscated":true,"color":"dark_green"},{"text":"days left","color":"dark_green"}]
+title @s[predicate=helper:data_library/dimension/nether] actionbar ["",{"text":"Moon: ","color":"gold"},{"text":"XXXXXXXX ","obfuscated":true,"color":"gold"},{"text":"● 0 ","obfuscated":true,"color":"red"},{"text":"days left","color":"red"}]
+execute as @s at @s if predicate helper:data_library/dimension/overworld run function clock_utility:clock_utility/show/moon_detect

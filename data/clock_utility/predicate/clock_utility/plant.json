@@ -5,23 +5,23 @@
     "terms": [
       {
         "condition": "minecraft:reference",
-        "name": "helper:data_library/portallink_act"
+        "name": "clock_utility:clock_utility/aqua"
       },
       {
         "condition": "minecraft:reference",
-        "name": "helper:data_library/coord_act"
+        "name": "clock_utility:clock_utility/cold"
       },
       {
         "condition": "minecraft:reference",
-        "name": "helper:data_library/clock_act"
+        "name": "clock_utility:clock_utility/snow"
       },
       {
         "condition": "minecraft:reference",
-        "name": "helper:data_library/map_utility_act"
+        "name": "clock_utility:clock_utility/warm"
       },
       {
         "condition": "minecraft:reference",
-        "name": "helper:data_library/mob_spawn_area_act"
+        "name": "clock_utility:clock_utility/cave"
       }
     ]
   }

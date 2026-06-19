@@ -1,0 +1,61 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:reference",
+      "name": "helper:data_library/biomes_check/desert"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "helper:data_library/biomes_check/desert_lakes"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "helper:data_library/biomes_check/desert_hills"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "helper:data_library/biomes_check/savana"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "helper:data_library/biomes_check/shattered_savana"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "helper:data_library/biomes_check/savana_plateau"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "helper:data_library/biomes_check/shattered_savana_plateau"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "helper:data_library/biomes_check/badlands"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "helper:data_library/biomes_check/eroded_badlands"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "helper:data_library/biomes_check/wooded_badlands_plateau"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "helper:data_library/biomes_check/wooded_badlands_plateau_plus"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "helper:data_library/biomes_check/badlands_plateau"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "helper:data_library/biomes_check/badlands_plateau_plus"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "helper:data_library/biomes_check/nether_wastes"
+    }
+  ]
+}

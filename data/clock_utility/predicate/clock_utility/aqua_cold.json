@@ -1,0 +1,26 @@
+{
+  "condition": "minecraft:inverted",
+  "term": {
+    "condition": "minecraft:any_of",
+    "terms": [
+      {
+        "condition": "minecraft:inverted",
+        "term": {
+          "condition": "minecraft:reference",
+          "name": "clock_utility:clock_utility/aqua"
+        }
+      },
+      {
+        "condition": "minecraft:inverted",
+        "term": {
+          "condition": "minecraft:reference",
+          "name": "clock_utility:clock_utility/cold"
+        }
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "clock_utility:clock_utility/snow"
+      }
+    ]
+  }
+}
