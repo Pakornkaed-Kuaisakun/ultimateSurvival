@@ -1,4 +1,4 @@
-﻿tag @s add mwt.setlore.compass
+tag @s add mwt.setlore.compass
 function compass_utility:compass_utility/radar_save/get_compass
 setblock ~1 ~ ~ oak_wall_sign[facing=east]
 execute if predicate helper:data_library/dimension/overworld run data modify block ~1 ~ ~ Text1 set value '[{"text":"Overworld.: ","color":"green"},{"score":{"name":"@p[tag=mwt.setlore.compass,limit=1]","objective":"mwt.radar.posx"},"color":"gold"},{"text":", ","color":"gold"},{"score":{"name":"@p[tag=mwt.setlore.compass,limit=1]","objective":"mwt.radar.posz"},"color":"gold"}]'

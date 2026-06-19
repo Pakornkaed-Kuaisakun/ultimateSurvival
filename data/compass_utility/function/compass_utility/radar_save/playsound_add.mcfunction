@@ -1,4 +1,4 @@
-﻿execute at @s positioned ~ ~ ~ run summon minecraft:area_effect_cloud ~ ~ ~ {Tags: ['mwt.radar.ae','global.ignore','global.ignore.pos'], Age: 0, Duration: 1}
+execute at @s positioned ~ ~ ~ run summon minecraft:area_effect_cloud ~ ~ ~ {Tags:["mwt.radar.ae","global.ignore","global.ignore.pos"],Age:0,Duration:1}
 tag @s add mwt.receive.radar
 execute if predicate compass_utility:compass_utility/mainhand as @e[type=minecraft:area_effect_cloud,tag=mwt.radar.ae,limit=1] run function compass_utility:compass_utility/radar_save/clear_waypoint
 tag @s remove mwt.receive.radar

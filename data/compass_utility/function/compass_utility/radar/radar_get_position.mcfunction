@@ -1,3 +1,3 @@
-﻿execute if entity @p[tag=mwt.receive.radar,limit=1,predicate=helper:data_library/dimension/overworld] run data modify entity @s Pos set from entity @p[tag=mwt.receive.radar,limit=1] SelectedItem.components."minecraft:custom_data".mwt.ow.Pos
+execute if entity @p[tag=mwt.receive.radar,limit=1,predicate=helper:data_library/dimension/overworld] run data modify entity @s Pos set from entity @p[tag=mwt.receive.radar,limit=1] SelectedItem.components."minecraft:custom_data".mwt.ow.Pos
 execute if entity @p[tag=mwt.receive.radar,limit=1,predicate=helper:data_library/dimension/nether] run data modify entity @s Pos set from entity @p[tag=mwt.receive.radar,limit=1] SelectedItem.components."minecraft:custom_data".mwt.nt.Pos
 execute if entity @p[tag=mwt.receive.radar,limit=1,predicate=helper:data_library/dimension/the_end] run data modify entity @s Pos set from entity @p[tag=mwt.receive.radar,limit=1] SelectedItem.components."minecraft:custom_data".mwt.te.Pos

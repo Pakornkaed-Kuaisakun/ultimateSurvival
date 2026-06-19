@@ -1,4 +1,4 @@
-﻿execute store result score @s mwt.radar.posx run data get entity @s SelectedItem.components."minecraft:custom_data".mwt.te.PosX 1
+execute store result score @s mwt.radar.posx run data get entity @s SelectedItem.components."minecraft:custom_data".mwt.te.PosX 1
 execute store result score @s mwt.radar.posz run data get entity @s SelectedItem.components."minecraft:custom_data".mwt.te.PosZ 1
 execute unless predicate compass_utility:compass_utility/set_lore/dm1 run function compass_utility:compass_utility/radar_save/set_lore
 execute if score @s mwt.swap.sec matches 10 run title @s actionbar ["",{"text":"[The End radar X, Z] ","color":"light_purple"},{"nbt": "name", "storage": "mwt:name.radar","interpret": true,"color":"aqua"},{"text":" | ","color":"aqua"},{"score":{"name":"@s","objective":"mwt.radar.posx"},"color":"aqua"},{"text":", ","color":"aqua"},{"score":{"name":"@s","objective":"mwt.radar.posz"},"color":"aqua"},{"text":" ●","color":"red"},{"text":"●","color":"green"}]

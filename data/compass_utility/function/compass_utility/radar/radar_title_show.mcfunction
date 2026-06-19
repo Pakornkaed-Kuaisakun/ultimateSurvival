@@ -1,4 +1,4 @@
-﻿tag @s add mwt.receive.radar
+tag @s add mwt.receive.radar
 data modify storage mwt:name.radar name set from entity @s SelectedItem.components."minecraft:custom_name"
 
 function helper:data_library/radar_work/get_rotate_summon

@@ -1,4 +1,4 @@
-﻿function compass_utility:compass_utility/radar_save/get_compass
+function compass_utility:compass_utility/radar_save/get_compass
 data remove block ~ ~ ~ Items[0].components."minecraft:lore"
 execute if predicate helper:data_library/dimension/overworld run data remove block ~ ~ ~ Items[0].components."minecraft:custom_data".mwt.ow
 execute if predicate helper:data_library/dimension/nether run data remove block ~ ~ ~ Items[0].components."minecraft:custom_data".mwt.nt

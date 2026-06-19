@@ -1,4 +1,4 @@
-﻿execute if score @s mwt.sneak.sec matches 1 run function compass_utility:compass_utility/radar_save/playsound_add
+execute if score @s mwt.sneak.sec matches 1 run function compass_utility:compass_utility/radar_save/playsound_add
 execute if score @s mwt.sneak.sec matches 2..4 run title @s actionbar {"text":"+Right click? to Measure mode","color":"gold","italic":true}
 execute if score @s mwt.sneak.sec matches 5 run title @s actionbar [{"text":"Coord radar saving ","color":"light_purple"},{"text":"[","color":"aqua","bold":true},{"text":"❙","color":"green"},{"text":"❙","color":"gray"},{"text":"]","color":"aqua","bold":true}]
 execute if score @s mwt.sneak.sec matches 6 run title @s actionbar [{"text":"Coord radar saving ","color":"light_purple"},{"text":"[","color":"aqua","bold":true},{"text":"❙❙","color":"green"},{"text":"]","color":"aqua","bold":true}]

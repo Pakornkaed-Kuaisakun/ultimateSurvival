@@ -1,2 +1,2 @@
-﻿execute if score @s mwt.sneak.sec matches 9 run function compass_utility:compass_utility/radar_save/nether/save
+execute if score @s mwt.sneak.sec matches 9 run function compass_utility:compass_utility/radar_save/nether/save
 execute if predicate compass_utility:compass_utility/radar_save/nether run function compass_utility:compass_utility/radar_save/nether/match_tool
