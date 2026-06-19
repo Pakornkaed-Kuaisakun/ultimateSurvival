@@ -1,0 +1,3 @@
+tp @s ~ ~ ~ facing entity @p[tag=mwt.receive.radar,limit=1] eyes
+execute at @s unless entity @e[type=armor_stand,tag=mwt.waypoint.hologram,distance=...01] run summon armor_stand ~ ~ ~ {NoGravity:1b,Invulnerable:1b,Marker:1b,Invisible:1b,NoBasePlate:1b,Small:1b,Tags:['mwt.waypoint.hologram','global.ignore','global.ignore.kill','global.ignore.gui','global.ignore.pos']}
+execute as @e[type=armor_stand,tag=mwt.waypoint.hologram,distance=...01] run function helper:data_library/radar_work/waypoint_hologram_set

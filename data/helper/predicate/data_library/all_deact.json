@@ -1,0 +1,28 @@
+{
+  "condition": "minecraft:inverted",
+  "term": {
+    "condition": "minecraft:all_of",
+    "terms": [
+      {
+        "condition": "minecraft:reference",
+        "name": "estearth:data_library/portallink_act"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "helper:data_library/coord_act"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "estearth:data_library/clock_act"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "estearth:data_library/map_utility_act"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "estearth:data_library/mob_spawn_area_act"
+      }
+    ]
+  }
+}

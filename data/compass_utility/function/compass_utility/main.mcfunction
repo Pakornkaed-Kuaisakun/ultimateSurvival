@@ -1,0 +1,1 @@
+execute as @a[tag=!global.ignore,tag=!global.ignore.gui,predicate=compass_utility:compass_utility/mainhand,predicate=helper:data_library/all_deact] at @s run function compass_utility:compass_utility/event/processbar

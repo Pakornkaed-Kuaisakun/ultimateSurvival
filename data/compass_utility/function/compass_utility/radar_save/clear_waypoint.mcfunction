@@ -1,0 +1,4 @@
+﻿execute if entity @p[tag=mwt.receive.radar,limit=1,predicate=compass_utility:compass_utility/mainhand] run data modify entity @s Pos set from entity @p[tag=mwt.receive.radar,limit=1] SelectedItem.components."minecraft:custom_data".mwt.ow.Pos
+execute if entity @p[tag=mwt.receive.radar,limit=1,predicate=helper:data_library/dimension/nether] run data modify entity @s Pos set from entity @p[tag=mwt.receive.radar,limit=1] SelectedItem.components."minecraft:custom_data".mwt.nt.Pos
+execute if entity @p[tag=mwt.receive.radar,limit=1,predicate=helper:data_library/dimension/the_end] run data modify entity @s Pos set from entity @p[tag=mwt.receive.radar,limit=1] SelectedItem.components."minecraft:custom_data".mwt.te.Pos
+execute at @s as @e[type=minecraft:armor_stand,tag=mwt.waypoint.hologram,distance=...01,limit=1] run kill @s

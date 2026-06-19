@@ -1,0 +1,21 @@
+﻿{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "slots": {
+      "weapon.mainhand": {
+        "count": {
+          "min": 1
+        },
+        "items": "minecraft:compass",
+        "predicates": {
+          "minecraft:custom_data": {
+            "mwt": {
+              "RadarOverworldSave": 1
+            }
+          }
+        }
+      }
+    }
+  }
+}
