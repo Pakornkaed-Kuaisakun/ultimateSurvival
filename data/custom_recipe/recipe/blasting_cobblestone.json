@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": "cobblestone",
+  "category": "blocks",
+  "result": "stone"
+}

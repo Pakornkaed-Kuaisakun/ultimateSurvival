@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "category": "blocks",
+  "ingredient": "#minecraft:sand",
+  "result": {
+    "id": "minecraft:glass",
+    "count": 1
+  }
+}

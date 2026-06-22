@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": "stone",
+  "category": "blocks",
+  "result": "smooth_stone"
+}

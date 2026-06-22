@@ -1,0 +1,26 @@
+{
+  "values": [
+    "#mob_spawn_area:mob_spawn_area/air",
+    "#minecraft:flowers",
+    "#minecraft:wool_carpets",
+    "#helper:data_library/waterlogged_inherent",
+    "minecraft:farmland",
+    "minecraft:moss_carpet",
+    "minecraft:short_grass",
+    "minecraft:tall_grass",
+    "minecraft:fern",
+    "minecraft:water",
+    "minecraft:redstone_wire",
+    "minecraft:repeater",
+    "minecraft:comparator",
+    "minecraft:lever",
+    "#minecraft:buttons",
+    "minecraft:short_dry_grass",
+    "minecraft:tall_dry_grass",
+    "#minecraft:saplings",
+    "minecraft:dead_bush",
+    "#minecraft:flower_pots",
+    "minecraft:firefly_bush",
+    "minecraft:leaf_litter"
+  ]
+}

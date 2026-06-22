@@ -1,0 +1,12 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "type_specific": {
+      "type": "minecraft:player",
+      "advancements": {
+        "mob_spawn_area:mob_spawn_area/active/mob_spawn_area": true
+      }
+    }
+  }
+}

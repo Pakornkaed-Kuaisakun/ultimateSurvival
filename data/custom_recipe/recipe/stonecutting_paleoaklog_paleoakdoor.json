@@ -1,0 +1,5 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "minecraft:pale_oak_log",
+  "result": "minecraft:pale_oak_door"
+}

@@ -1,0 +1,4 @@
+scoreboard players operation @s mwt.ptl.posx *= #mwt.num.op.8 mwt.data
+scoreboard players operation @s mwt.ptl.posz *= #mwt.num.op.8 mwt.data
+
+title @s actionbar ["",{"text":"[Nether] ","color":"yellow","bold":true},{"text":"X: ","color":"yellow"},{"score":{"name":"@s","objective":"mwt.get.posx"},"color":"yellow"},{"text":", Z: ","color":"yellow"},{"score":{"name":"@s","objective":"mwt.get.posz"},"color":"yellow"},{"text":" ➣ ","color":"white"},{"text":"[Overworld] ","color":"green","bold":true},{"text":"X: ","color":"green"},{"score":{"name":"@s","objective":"mwt.ptl.posx"},"color":"green"},{"text":", Z: ","color":"green"},{"score":{"name":"@s","objective":"mwt.ptl.posz"},"color":"green"}]

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": ["LLL", "LTL", "LLL"],
+  "key": {
+    "L": "minecraft:oak_log",
+    "T": "minecraft:tripwire_hook"
+  },
+  "result": {
+    "id": "minecraft:trapped_chest",
+    "count": 4
+  }
+}

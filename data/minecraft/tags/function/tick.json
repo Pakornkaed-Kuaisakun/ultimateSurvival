@@ -1,6 +1,10 @@
 {
   "values": [
     "#compass_utility:compass_utility/tick",
-    "#clock_utility:clock_utility/tick"
+    "#clock_utility:clock_utility/tick",
+    "#portallink_calc:portallink_calc/tick",
+    "#mob_spawn_area:mob_spawn_area/tick",
+    "#deadcoords:deadcoords/tick",
+    "mob_stacker:mob_stacker/tick"
   ]
 }

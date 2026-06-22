@@ -1,0 +1,1 @@
+execute as @a[tag=!global.ignore,tag=!global.ignore.gui,predicate=portallink_calc:portallink_calc/mainhand,predicate=helper:data_library/all_deact] at @s run function portallink_calc:portallink_calc/event/processbar

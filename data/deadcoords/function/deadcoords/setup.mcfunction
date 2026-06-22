@@ -1,0 +1,10 @@
+scoreboard objectives add deathcoords_d deathCount
+scoreboard objectives add deathcoords_dt minecraft.custom:minecraft.time_since_death
+scoreboard objectives add deathcoords_x dummy
+scoreboard objectives add deathcoords_y dummy
+scoreboard objectives add deathcoords_z dummy
+scoreboard objectives add deathcoords trigger
+scoreboard objectives add deathcoords_xd dummy
+scoreboard objectives add deathcoords_yd dummy
+scoreboard objectives add deathcoords_zd dummy
+scoreboard objectives add deathcoords_dimension dummy

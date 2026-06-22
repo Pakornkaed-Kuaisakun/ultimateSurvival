@@ -2,6 +2,10 @@
   "values": [
     "#compass_utility:compass_utility/load",
     "#helper:data_library/load",
-    "#clock_utility:clock_utility/load"
+    "#clock_utility:clock_utility/load",
+    "#portallink_calc:portallink_calc/load",
+    "#mob_spawn_area:mob_spawn_area/load",
+    "#deadcoords:deadcoords/load",
+    "mob_stacker:mob_stacker/load"
   ]
 }

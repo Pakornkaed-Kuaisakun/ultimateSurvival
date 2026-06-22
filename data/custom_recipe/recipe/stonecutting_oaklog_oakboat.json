@@ -1,0 +1,5 @@
+{
+  "type": "stonecutting",
+  "ingredient": "minecraft:oak_log",
+  "result": "minecraft:oak_boat"
+}

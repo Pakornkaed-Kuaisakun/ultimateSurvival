@@ -1,0 +1,1 @@
+execute as @a[tag=!global.ignore,tag=!global.ignore.gui,predicate=mob_spawn_area:mob_spawn_area/hold_light_item,predicate=helper:data_library/all_deact] at @s run function mob_spawn_area:mob_spawn_area/event/processbar

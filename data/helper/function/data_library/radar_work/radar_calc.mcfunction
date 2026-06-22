@@ -17,4 +17,4 @@ execute if score @s mwt.rd.pointer matches -180..-179 run function helper:data_l
 execute if score @s mwt.rd.pointer matches 179 run function helper:data_library/radar_work/direct_axis_xz/direct1-1
 execute if score @s mwt.rd.pointer matches -91..-89 run function helper:data_library/radar_work/direct_axis_xz/direct89-91
 
-title @s subtitle [{"text":"⎝","color":"light_purple","bold":true},{"text":"▃▃▃▃▃▃▃▃▃▃▃╤▃▃▃▃▃▃▃▃▃▃▃","color":"green"},{"text":"⎠"}]
+title @s subtitle [{"text":"⎝","color":"light_purple","bold":true},{"text":"▃▃▃▃▃▃▃▃▃▃▃▃╤▃▃▃▃▃▃▃▃▃▃▃▃","color":"green"},{"text":"⎠"}]

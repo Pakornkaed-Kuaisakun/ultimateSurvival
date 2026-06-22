@@ -1,0 +1,2 @@
+execute if predicate mob_spawn_area:mob_spawn_area/light_level0_7 run scoreboard players set @s mwt.get.block 0
+execute if predicate mob_spawn_area:mob_spawn_area/light_level8_15 run scoreboard players set @s mwt.get.block 1
